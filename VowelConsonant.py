@@ -1,29 +1,21 @@
 print("Hello World")
-eo o
 
-hll wrld
+userInput = "Enter your username"
 
-userInput \= ("Enter your username")
-
-print (userinput)
+print (userInput)
 
 vowels="AEIOUaeiou"
 
-display vowels= ""
+displayVowels= ""
 
 displayConsonants=""
 
 for letter in userInput:
-    print ("letter:" + letter")
-
+    print ("letter:" + letter)
     if letter in vowels:
-        print (letter)
-
         displayVowels= displayVowels + letter
+    else:
+        displayConsonants = displayConsonants + letter
 
-    print ("vowels:" + displayVowels")
-
-else:
-    display displayConsonants
-    print ("consonants: " + displayConsonanats)
-    
+print ("vowels:" + displayVowels)
+print ("consonants: " + displayConsonants)
